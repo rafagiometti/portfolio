@@ -82,27 +82,6 @@
       </section>
 
       <section id="about" class="flex sobre_container">
-        <img src="./assets/img/user_02.svg" alt="Foto do perfil do GitHub" />
-        <article id="about_texto">
-          <h1>Sobre mim</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            delectus unde, voluptatibus veritatis perspiciatis sequi vitae
-            magnam assumenda consectetur, ab ratione aliquid aut voluptates
-            minima obcaecati debitis quos eveniet sed.
-          </p>
-
-          <div id="about_github" class="flex sobre_github">
-            <a
-              href="https://github.com/rafagiometti" 
-              target="_blank"
-              class="botao"
-              >GitHub</a
-            >
-            <p>5 Seguidores</p>
-            <p>17 Repositórios</p>
-          </div>
-        </article>
       </section>
 
       <section id="contact" class="contato_container">
@@ -131,7 +110,10 @@
           </div>
         </article>
 
-        <form action="" method="POST">
+        <form action="https://formsubmit.co/rafaela.giometti@mail.usf.edu.br" method="POST" id="formulario">
+          
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+          <input type="hidden" name="_captcha" value="false">
           <label for="nome">Nome</label>
           <input
             id="nome"
@@ -173,5 +155,10 @@
     </main>
 
     <footer> Feito por Rafaela de Souza Giometti | 2025</footer>
+
+    <!-- Script JavaScript -->
+     <script src="./assets/js/script.js"></script>
+
   </body>
+
 </html>
